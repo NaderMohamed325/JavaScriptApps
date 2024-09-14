@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Counter</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif, Impact, Haettenschweiler,
+          'Arial Narrow Bold', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: antiquewhite;
+      }
+      .counter-container {
+        text-align: center;
+      }
+      .count {
+        font-size: 2em;
+        margin: 20px 0;
+      }
+      button {
+        font-size: 1em;
+        padding: 10px 20px;
+        margin: 5px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="counter-container">
+      <div class="count" id="count">0</div>
+      <button id="increase">Increase</button>
+      <button id="decrease">Decrease</button>
+      <button id="reset">Reset</button>
+    </div>
+
+   
+    <script src="app.js"></script>
+  </body>
+</html>
