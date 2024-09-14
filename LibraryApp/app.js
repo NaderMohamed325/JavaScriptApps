@@ -10,12 +10,10 @@ function addBook(title, author, year, genre) {
   };
   libraryBooks.push(book);
 
-  // Increment the genre count
-  if (counter[genre]) {
+
+
     counter[genre]++;
-  } else {
-    counter[genre] = 1;
-  }
+
 }
 
 function displayAllBooks() {
